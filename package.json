@@ -1,0 +1,16 @@
+{
+    "name": "ui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tailwindcss build src/tailwind.css -o public/css/style.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^9.8.6",
+        "tailwindcss": "^1.7.6"
+    }
+}
